@@ -1,0 +1,31 @@
+table, td, th {
+    border: solid black 1px;
+    /* viền đơn, màu đen, 1px */
+}
+
+table {
+    border-collapse: collapse;
+    /* bỏ viền ngoài của bảng */
+    width: 100%;
+    /* độ rộng bảng toàn trang web */
+}
+
+th, td {
+    height: 50px;
+    /* chiều cao của các phần tử th td */
+    padding: 20px;
+    /* khoảng cách th td với cạnh của bảng */
+}
+
+td {
+    text-align: left;
+    /* chữ trong td nằm ở phía bên trái của bảng */
+    vertical-align: bottom;
+    /* chữ trong td nằm ở bên dưới theo hàng dọc */
+}
+
+th {
+    background-color: aquamarine;
+    /* màu nền th */
+}
+
