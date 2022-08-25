@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(6, 45, 56, 0.306);
+    /* Màu nền */
+}
+
+h1,h2 {
+    color: white;
+    /* màu chữ h1 h2 là màu trắng */
+}
+
+ul {
+    list-style: circle inside;
+    /* dấu tròn rỗng, chữ xuất hiện bên trong dòng */
+}
+
+ol {
+    list-style: upper-roman outside;
+    /* chữ số la mã viết hoa, chữ xuất hiện bên ngoài dòng, ngoài dòng là kiểu mặc định */
+    background-color: aquamarine;
+    padding: 50px;
+    /* màu nền ol, khoảng cách phần tử với background color */
+}
+
+#A {
+    background-color: aqua;
+    margin: 2px;
+    /* màu nền của các phần tử li có id A, khoảng cách giữa các khối màu từng dòng là 2px */
+}
+
+.B {
+    background-color: cadetblue;
+    margin: 5px;
+    margin-left: 50px;
+    /* màu nền của 3 phần tử li class B, khoảng cách màu từng dòng là 5px, khoảng cách đến lề trái của trang web là 50px */
+}
